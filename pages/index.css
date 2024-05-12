@@ -4,8 +4,8 @@
 
 
 
-@import url('../block/page.css');
-@import url('../block/header.css');
-@import url('../block/intro.css');
-@import url('../block/lead.css');
-@import url('../block/footer.css');
+@import url('../blocks/page.css');
+@import url('../blocks/header.css');
+@import url('../blocks/intro.css');
+@import url('../blocks/lead.css');
+@import url('../blocks/footer.css');
