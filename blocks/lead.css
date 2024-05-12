@@ -55,12 +55,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1024
     .lead__content {
         position: relative;
         top: 120px;
         max-width: 984px;
         max-height: 983px;
-        left: 550px;
+        left: 555px;
     }
 
     .lead__image {
@@ -73,10 +74,10 @@
     }
 
     .lead__second-line {
-        display: inline-block;
+        display: block;
         margin-top: 0;
         position: relative;
-        left: 8px;
+        left: 90px;
         right: 0;
         width: 530px;
     }
