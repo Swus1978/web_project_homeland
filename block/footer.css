@@ -1,0 +1,48 @@
+.footer {
+    position: relative;
+    top: 2068px;
+    padding: 50px;
+    left: 543px;
+    width: 194px;
+    height: 16px;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114%;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        position: relative;
+        top: 2068px;
+        padding: 50px;
+        left: 1043px;
+        width: 194px;
+        height: auto;
+        text-align: right;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        position: relative;
+        top: 1502px;
+        padding: 50px;
+        left: 543px;
+        width: 194px;
+        height: 16px;
+        text-align: right;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 114%;
+        font-size: 14px;
+    }
+}
