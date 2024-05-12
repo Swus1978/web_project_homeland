@@ -18,8 +18,8 @@
         position: relative;
         top: 2068px;
         padding: 50px;
-        left: 1043px;
-        width: 194px;
+        left: 100%;
+        width: auto;
         height: auto;
         text-align: right;
         font-family: 'Inter';

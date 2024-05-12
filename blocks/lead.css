@@ -37,7 +37,6 @@
     position: relative;
     left: 100px;
     right: 0;
-    /* Position it relative to its container */
     width: 530px;
 }
 
@@ -60,7 +59,7 @@
         top: 120px;
         max-width: 984px;
         max-height: 983px;
-        left: 550px;
+        left: 555px;
     }
 
     .lead__image {
@@ -73,10 +72,10 @@
     }
 
     .lead__second-line {
-        display: inline-block;
+        display: block;
         margin-top: 0;
         position: relative;
-        left: 8px;
+        left: 90px;
         right: 0;
         width: 530px;
     }
@@ -125,7 +124,6 @@
         }
     }
 
-
     .lead__second-line {
         position: absolute;
         left: 0px;
@@ -136,7 +134,6 @@
         bottom: 20px;
         padding: 20px;
     }
-
 
     .lead__text {
         position: absolute;

@@ -1,7 +1,7 @@
 .intro {
     position: absolute;
     top: 1269px;
-    left: 370px;
+    left: 670px;
     width: 830px;
     height: 607px;
 }
@@ -47,6 +47,15 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
+}
+
+@media screen and (max-width: 1308px) {
+    .intro {
+        top: 1239px;
+        left: 380px;
+        width: 880px;
+        height: 60.7%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
