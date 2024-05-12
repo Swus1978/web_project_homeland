@@ -54,6 +54,7 @@
 }
 
 @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1024
     .lead__content {
         position: relative;
         top: 120px;
