@@ -1,8 +1,10 @@
 .footer {
-    position: relative;
-    top: 2068px;
+    position: absolute;
+    top: 1600px;
     padding: 50px;
-    left: 543px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     width: 194px;
     height: 16px;
     text-align: right;
@@ -13,36 +15,23 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
     .footer {
-        position: relative;
-        top: 2068px;
-        padding: 50px;
-        left: 100%;
-        width: auto;
-        height: auto;
-        text-align: right;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 114%;
-        font-size: 14px;
+        margin-top: 800px;
+        text-align: left;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .footer {
-        position: relative;
-        top: 1502px;
-        padding: 50px;
-        left: 543px;
-        width: 194px;
-        height: 16px;
-        text-align: right;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        line-height: 114%;
-        font-size: 14px;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin-top: 400px;
+        text-align: left;
     }
 }

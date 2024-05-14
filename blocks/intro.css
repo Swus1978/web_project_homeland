@@ -1,188 +1,101 @@
 .intro {
     position: absolute;
-    top: 1269px;
-    left: 670px;
-    width: 830px;
-    height: 607px;
+    left: 120px;
+    max-width: 830px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.intro *,
+.intro__title {
+    text-align: left;
 }
 
 .intro__title {
-    display: block;
-    width: 830px;
-    height: auto;
-    font-family: 'Inter';
-    font-weight: 900;
     font-size: 54px;
-    line-height: 107%;
+    line-height: 120%;
 }
 
 .intro__text-one {
-    display: block;
-    width: 738px;
-    height: auto;
-    font-family: 'Inter';
-    font-weight: 400;
     font-size: 24px;
-    line-height: 142%;
+    line-height: 130%;
 }
 
-.intro__text-two {
-    display: block;
-    width: 732px;
-    height: auto;
-    margin-right: auto;
-    font-family: 'Inter';
-    font-weight: 400;
+.intro__text-two,
+.intro__text-three {
     font-size: 24px;
-    line-height: 142%;
-    text-align: right;
+    line-height: 130%;
 }
 
 .intro__text-three {
-    display: block;
-    width: 722px;
-    height: auto;
-    margin-right: auto;
-    font-family: 'Inter';
-    font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 140%;
 }
 
-@media screen and (max-width: 1308px) {
+@media screen and (max-width:2560px) {
     .intro {
-        top: 1239px;
-        left: 380px;
-        width: 880px;
-        height: 60.7%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .intro {
-        top: 1369px;
-        left: 732.5px;
-        width: 880px;
-        height: 60.7%;
-    }
-
-    .intro__title {
-        width: 830px;
-        height: auto;
-        font-size: 54px;
-        line-height: 107%;
-    }
-
-    .intro__text-one {
-        width: 738px;
-        height: auto;
-        font-size: 24px;
-        line-height: 142%;
+        position: relative;
+        left: 350px;
+        transform: translateX(-50%);
+        text-align: center;
     }
 
     .intro__text-two {
-        width: 732px;
-        height: auto;
-        margin-right: auto;
-        font-size: 24px;
-        line-height: 142%;
-    }
-
-    .intro__text-three {
-        width: 722px;
-        height: auto;
-        margin-right: auto;
-        font-size: 16px;
-        line-height: 163%;
+        text-align: right;
     }
 }
 
+
+@media screen and (max-width:1440px) {
+    .intro {
+        position: relative;
+        left: 350px;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .intro__text-two {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    .intro__text-two {
+        text-align: right;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .intro {
-        top: 1151px;
-        left: 358px;
-        width: 720px;
-        height: 573px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
     }
 
     .intro__title {
-        width: 707px;
-        height: 147px;
-        font-size: 54px;
+        font-size: 45px;
         line-height: 49px;
-        padding: 60px;
-    }
-
-    .intro__text-one {
-        top: 10px;
-        left: 10px;
-        width: 720px;
-        height: 136px;
-        font-size: 24px;
-        line-height: 200%;
     }
 
     .intro__text-two {
-        top: 110px;
-        left: 10px;
-        width: 720px;
-        height: 34px;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 212.5%;
+        text-align: right;
     }
 
-    .intro__text-three {
-        width: 720px;
-        height: 182px;
-        font-size: 16px;
-        line-height: 163%;
-    }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
     .intro {
-        top: 180.1%;
-        left: 119%;
-        right: 0;
-        width: 28.8%;
-        height: 103.3%;
-        margin: 0 auto;
-        bottom: 0;
-    }
-
-    .intro__title {
-        width: 707px;
-        height: 147px;
-        font-size: 54px;
-        line-height: 49px;
-        padding: 60px;
-    }
-
-    .intro__text-one {
-        top: 10px;
-        left: 10px;
-        width: 720px;
-        height: 136px;
-        font-size: 24px;
-        line-height: 200%;
-    }
-
-    .intro__text-two {
-        top: 110px;
-        left: 10px;
-        width: 720px;
-        height: 34px;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 212.5%;
-    }
-
-    .intro__text-three {
-        width: 720px;
-        height: 182px;
-        font-size: 16px;
-        line-height: 163%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
     }
 }
