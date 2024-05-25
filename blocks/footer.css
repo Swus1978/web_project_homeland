@@ -1,6 +1,6 @@
 .footer {
     position: absolute;
-    top: 1600px;
+    top: 7500px;
     padding: 50px;
     left: 0;
     right: 0;
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 320px) {
     .footer {
-        margin-top: 400px;
-        text-align: left;
+        margin-top: 1400px;
+        text-align: center;
     }
 }
