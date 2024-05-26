@@ -6,10 +6,58 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, 984px);
     grid-template-rows: repeat(4, 1fr);
-    gap: 40px;
-    padding: 20px;
+    gap: 20px;
+    padding: 5px;
     max-width: 995px;
     margin: 0 auto;
+}
+
+.gird-artist-1 {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+
+.gird-artist-2 {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+
+.gird-artist-3 {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+
+.gird-artist-4 {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+
+.grid-name-1 {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+
+.grid-name-2 {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+
+.grid-name-3 {
+    position: relative;
+    top: 10px;
+    left: 470px;
+}
+
+.grid-name-4 {
+    position: relative;
+    top: 10px;
+    left: 470px;
 }
 
 .grid-item {
@@ -33,7 +81,7 @@
     position: relative;
     width: 455.53px;
     height: 67px;
-    left: 651px;
+    /* left: 660px; */
     top: 2613px;
     font-size: 0.9em;
     color: #bbb;
@@ -47,8 +95,9 @@
 
 .description {
     position: relative;
-    left: 550px;
+    left: 450px;
     bottom: 490px;
+    gap: 10px;
     max-width: 484px;
     padding: 0 20px;
 }
@@ -64,14 +113,13 @@
     font-size: 1em;
     position: relative;
     left: 0;
-    /* margin-top: 20px; */
+    margin-top: 20px;
 }
 
 .grid-item button:hover {
     background-color: #1c86ee;
 }
 
-/* Specific button classes if needed */
 .button-1 {
     position: relative;
     bottom: 350px;
@@ -119,6 +167,78 @@
 
     .grid-container {
         width: 288px;
+    }
+
+    .gird-artist-1 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .gird-artist-2 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .gird-artist-3 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .gird-artist-4 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .grid-name-1 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .grid-name-2 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .grid-name-3 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .grid-name-4 {
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+    .button-1 {
+        position: relative;
+        top: 50px;
+        left: 0;
+    }
+
+    .button-2 {
+        position: relative;
+        top: 50px;
+        left: 0;
+    }
+
+    .button-3 {
+        position: relative;
+        top: 50px;
+        left: 0;
+    }
+
+    .button-4 {
+        position: relative;
+        top: 50px;
+        left: 0;
     }
 }
 

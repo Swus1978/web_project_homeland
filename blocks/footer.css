@@ -1,5 +1,5 @@
 .footer {
-    position: absolute;
+    position: relative;
     top: 7500px;
     padding: 50px;
     left: 0;
@@ -15,23 +15,41 @@
     font-size: 14px;
 }
 
+
+@media sreen and (max-width: 600px) {
+    .footer {
+        top: 200px;
+        text-align: left;
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .footer {
-        margin-top: 800px;
+        margin-top: 200px;
         text-align: left;
+        width: auto;
+        /* Ensure it adapts to screen width */
     }
 }
 
 @media screen and (max-width: 375px) {
     .footer {
-        margin: 0 auto;
+        margin-top: 200px;
+        margin-left: 20px;
+        /* Add some margin for smaller screens */
         text-align: left;
+        width: auto;
+        /* Ensure it adapts to screen width */
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer {
-        margin-top: 1400px;
+        margin-top: 200px;
+        margin-left: 0;
         text-align: center;
+        width: 100%;
+        right: auto;
     }
 }
