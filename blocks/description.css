@@ -1,0 +1,42 @@
+.description {
+    display: grid;
+    min-width: 484px;
+    position: relative;
+    left: 480px;
+    bottom: 480px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .description {
+        left: 450px;
+        bottom: 480px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .description {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: auto;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 320px) {
+    .description {
+        position: relative;
+        left: 18%;
+        bottom: auto;
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .description {
+        left: 22.5%;
+        transform: translateX(-50%);
+        bottom: auto;
+        max-width: 40%;
+    }
+}
