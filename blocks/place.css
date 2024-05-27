@@ -12,48 +12,18 @@
     margin: 0 auto;
 }
 
-.gird-artist-1 {
-    position: relative;
-    top: 10px;
-    left: 470px;
-}
-
-.gird-artist-2 {
-    position: relative;
-    top: 10px;
-    left: 470px;
-}
-
-.gird-artist-3 {
-    position: relative;
-    top: 10px;
-    left: 470px;
-}
-
+.gird-artist-1,
+.gird-artist-2,
+.gird-artist-3,
 .gird-artist-4 {
     position: relative;
     top: 10px;
     left: 470px;
 }
 
-.grid-name-1 {
-    position: relative;
-    top: 10px;
-    left: 470px;
-}
-
-.grid-name-2 {
-    position: relative;
-    top: 10px;
-    left: 470px;
-}
-
-.grid-name-3 {
-    position: relative;
-    top: 10px;
-    left: 470px;
-}
-
+.grid-name-1,
+.grid-name-2,
+.grid-name-3,
 .grid-name-4 {
     position: relative;
     top: 10px;
@@ -81,15 +51,14 @@
     position: relative;
     width: 455.53px;
     height: 67px;
-    /* left: 660px; */
     top: 2613px;
     font-size: 0.9em;
     color: #bbb;
 }
 
-.grid-item img {
-    width: 460px;
+.grid-item-img {
     height: 460px;
+    width: 460px;
     margin-bottom: 20px;
 }
 
@@ -102,7 +71,7 @@
     padding: 0 20px;
 }
 
-.grid-item button {
+.grid-item-button {
     background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
     box-shadow: 5px 5px 10px #00000040;
     color: #fff;
@@ -116,31 +85,18 @@
     margin-top: 20px;
 }
 
-.grid-item button:hover {
+.grid-item-button:hover {
     background-color: #1c86ee;
 }
 
-.button-1 {
-    position: relative;
-    bottom: 350px;
-    left: 15px;
-}
 
-.button-2 {
-    position: relative;
-    bottom: 380px;
-    left: 15px;
-}
 
-.button-3 {
-    position: relative;
-    bottom: 480px;
-    left: 15px;
-}
-
+.button-1,
+.button-2,
+.button-3,
 .button-4 {
     position: relative;
-    bottom: 480px;
+    bottom: 350px;
     left: 15px;
 }
 
@@ -169,72 +125,27 @@
         width: 288px;
     }
 
-    .gird-artist-1 {
-        position: relative;
-        top: 10px;
-        left: 10px;
-    }
-
-    .gird-artist-2 {
-        position: relative;
-        top: 10px;
-        left: 10px;
-    }
-
-    .gird-artist-3 {
-        position: relative;
-        top: 10px;
-        left: 10px;
-    }
-
+    .gird-artist-1,
+    .gird-artist-2,
+    .gird-artist-3,
     .gird-artist-4 {
         position: relative;
         top: 10px;
         left: 10px;
     }
 
-    .grid-name-1 {
-        position: relative;
-        top: 10px;
-        left: 10px;
-    }
-
-    .grid-name-2 {
-        position: relative;
-        top: 10px;
-        left: 10px;
-    }
-
-    .grid-name-3 {
-        position: relative;
-        top: 10px;
-        left: 10px;
-    }
-
+    .grid-name-1,
+    .grid-name-2,
+    .grid-name-3,
     .grid-name-4 {
         position: relative;
         top: 10px;
         left: 10px;
     }
 
-    .button-1 {
-        position: relative;
-        top: 50px;
-        left: 0;
-    }
-
-    .button-2 {
-        position: relative;
-        top: 50px;
-        left: 0;
-    }
-
-    .button-3 {
-        position: relative;
-        top: 50px;
-        left: 0;
-    }
-
+    .button-1,
+    .button-2,
+    .button-3,
     .button-4 {
         position: relative;
         top: 50px;
