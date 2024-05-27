@@ -1,5 +1,6 @@
 @import url('../vendor/normalize.css');
-@import url("../vendor/fonts.css");
+@import url('../vendor/gird-buttons.css');
+@import url('../vendor/fonts.css');
 
 
 @import url('../blocks/description.css');
@@ -11,5 +12,4 @@
 @import url('../blocks/lead.css');
 @import url('../blocks/place.css');
 @import url('../blocks/photo__grid.css');
-@import url('../blocks/utilities.css');
 @import url('../blocks/footer.css');
