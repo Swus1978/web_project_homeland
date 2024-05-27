@@ -1,6 +1,4 @@
 .grid-container {
-    position: absolute;
-    text-align: left;
     display: grid;
     grid-template-columns: repeat(auto-fill, 984px);
     grid-template-rows: repeat(4, 1fr);
@@ -9,33 +7,6 @@
     max-width: 995px;
     margin: 0 auto;
 }
-
-
-.gird-artist-1,
-.gird-artist-2,
-.gird-artist-3,
-.gird-artist-4 {
-    position: relative;
-    top: 10px;
-    left: 480px;
-    min-width: 484px;
-}
-
-.grid-name-1,
-.grid-name-2,
-.grid-name-3,
-.grid-name-4 {
-    position: relative;
-    top: 10px;
-    left: 480px;
-    min-width: 484px;
-}
-
-.grid-name-4 {
-    left: 480px;
-
-}
-
 
 .grid-item {
     padding: 20px;
@@ -55,8 +26,8 @@
 }
 
 .grid-artist {
-    display: block;
     position: relative;
+    left: 480px;
     width: 455.53px;
     height: 67px;
     top: 2613px;
@@ -81,13 +52,30 @@
     font-size: 1em;
     position: relative;
     left: 0;
-    /* margin-top: 20px; */
+    margin-top: 20px;
 }
 
 .grid-item-button:hover {
     background-color: #1c86ee;
 }
 
+.gird-artist-1,
+.gird-artist-2,
+.gird-artist-3,
+.gird-artist-4 {
+    position: relative;
+    top: 10px;
+    left: 480px;
+}
+
+.grid-name-1,
+.grid-name-2,
+.grid-name-3,
+.grid-name-4 {
+    position: relative;
+    top: 10px;
+    left: 480px;
+}
 
 @media screen and (max-width: 1280px) {
     .description {
@@ -124,7 +112,6 @@
         top: 10px;
         left: 10px;
     }
-
 }
 
 @media (max-width: 320px) {

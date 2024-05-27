@@ -1,42 +1,56 @@
 .description {
-    display: grid;
-    min-width: 484px;
+    display: block;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
     position: relative;
-    left: 480px;
-    bottom: 480px;
+    left: 250px;
+    bottom: 470px;
 }
-
 
 @media screen and (max-width: 1280px) {
     .description {
-        left: 450px;
+        left: 480px;
         bottom: 480px;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    .description {
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: auto;
-        max-width: 90%;
-    }
-}
-
-@media (max-width: 320px) {
-    .description {
-        position: relative;
-        left: 18%;
-        bottom: auto;
-        max-width: 30%;
     }
 }
 
 @media screen and (max-width: 600px) {
     .description {
-        left: 22.5%;
-        transform: translateX(-50%);
-        bottom: auto;
+        position: static;
+        margin-top: 20px;
+        max-width: 50%;
+        left: auto;
+        right: auto;
+        transform: none;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .description {
+        position: relative;
+        margin-right: 480px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .description {
+        position: static;
+        margin-top: 20px;
+        max-width: 50%;
+        left: auto;
+        right: auto;
+        transform: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .description {
+        position: static;
+        margin-top: 20px;
         max-width: 40%;
+        left: 0;
+        right: 480px;
+        transform: translateX(-50%);
     }
 }
