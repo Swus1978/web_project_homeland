@@ -1,24 +1,24 @@
 .button-1 {
     position: relative;
-    bottom: 400px;
-    left: 25px;
+    bottom: 200px;
+    left: 15px;
 }
 
 .button-2 {
     position: relative;
-    bottom: 420px;
+    bottom: 220px;
     left: 15px;
 }
 
 .button-3 {
     position: relative;
-    bottom: 550px;
+    bottom: 300px;
     left: 15px;
 }
 
 .button-4 {
     position: relative;
-    bottom: 550px;
+    bottom: 250px;
     left: 0;
 }
 
