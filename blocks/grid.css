@@ -88,29 +88,6 @@
     background-color: #1c86ee;
 }
 
-.button-1 {
-    position: relative;
-    bottom: 200px;
-    left: 15px;
-}
-
-.button-2 {
-    position: relative;
-    bottom: 220px;
-    left: 15px;
-}
-
-.button-3 {
-    position: relative;
-    bottom: 300px;
-    left: 15px;
-}
-
-.button-4 {
-    position: relative;
-    bottom: 250px;
-    left: 0;
-}
 
 @media screen and (max-width: 1280px) {
     .description {
@@ -148,14 +125,6 @@
         left: 10px;
     }
 
-    .button-1,
-    .button-2,
-    .button-3,
-    .button-4 {
-        position: relative;
-        top: 50px;
-        left: 0;
-    }
 }
 
 @media (max-width: 320px) {

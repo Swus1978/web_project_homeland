@@ -2,10 +2,12 @@
 @import url("../vendor/fonts.css");
 
 
-@import url('../blocks/grid.css');
+@import url('../blocks/grid__buttons.css');
 @import url('../blocks/description.css');
 @import url('../blocks/page.css');
 @import url('../blocks/header.css');
+@import url('../blocks/grid.css');
+@import url('../blocks/grid-container.css');
 @import url('../blocks/intro.css');
 @import url('../blocks/lead.css');
 @import url('../blocks/place.css');
