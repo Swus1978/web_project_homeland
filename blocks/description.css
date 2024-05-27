@@ -2,15 +2,20 @@
     display: block;
     max-width: 480px;
     width: 100%;
-    margin: 0 auto;
+    margin: 30px;
     position: relative;
-    left: 250px;
-    bottom: 470px;
+    left: 450px;
+    bottom: 500px;
+}
+
+.description-4 {
+    margin-left: 30px;
+    margin: 50px;
 }
 
 @media screen and (max-width: 1280px) {
     .description {
-        left: 480px;
+        left: 680px;
         bottom: 480px;
     }
 }
@@ -48,9 +53,9 @@
     .description {
         position: static;
         margin-top: 20px;
-        max-width: 40%;
-        left: 0;
+        max-width: 30%;
+        left: 100%;
         right: 480px;
-        transform: translateX(-50%);
+
     }
 }
