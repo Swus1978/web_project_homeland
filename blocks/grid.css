@@ -1,14 +1,13 @@
-.grid-container {
-    position: relative;
+grid-container {
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(4, 984px);
+    grid-template-rows: repeat(4, 1fr);
     gap: 20px;
     padding: 5px;
     max-width: 995px;
     margin: 0 auto;
-    top: 25px;
 }
+
 
 .grid-item {
     padding: 20px;
@@ -66,7 +65,7 @@
 
 .grid-artist {
     position: relative;
-    left: 400px;
+    left: 430px;
     padding: 20px;
     margin: 20px;
     top: 20px;
@@ -78,7 +77,7 @@
 .grid-name {
     position: relative;
     top: 10px;
-    left: 400px;
+    left: 430px;
     padding: 20px;
     margin: 20px;
 }
