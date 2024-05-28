@@ -6,17 +6,22 @@
     position: relative;
     left: 450px;
     bottom: 500px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+
+
 }
 
-.description-4 {
-    margin-left: 30px;
-    margin: 50px;
-}
+
+
 
 
 @media screen and (max-width: 1280px) {
     .description {
-        left: 680px;
+        left: 440px;
         bottom: 480px;
     }
 }
@@ -30,7 +35,6 @@
         right: auto;
         transform: none;
     }
-
 }
 
 @media screen and (min-width: 601px) {

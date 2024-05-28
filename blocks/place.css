@@ -1,3 +1,6 @@
 .place {
-    padding: 20px;
+    width: 995px;
+    /* Ensure the container width is set to 995px */
+    margin: 0 auto;
+    /* Center the container */
 }
