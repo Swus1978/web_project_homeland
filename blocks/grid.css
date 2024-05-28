@@ -46,7 +46,6 @@
 
 .grid-item-button {
     background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
-    box-shadow: 5px 5px 10px #00000040;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -62,6 +61,7 @@
 
 .grid-item-button:hover {
     background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+    box-shadow: 5px 5px 10px #00000040;
 }
 
 .grid-artist {
