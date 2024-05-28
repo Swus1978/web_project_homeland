@@ -41,6 +41,7 @@
     height: 460px;
     width: 460px;
     margin-bottom: 20px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .grid-item-button {
@@ -60,7 +61,7 @@
 }
 
 .grid-item-button:hover {
-    background-color: #1c86ee;
+    background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 .grid-artist {
