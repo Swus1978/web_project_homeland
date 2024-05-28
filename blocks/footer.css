@@ -16,7 +16,7 @@
 }
 
 
-@media sreen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .footer {
         top: 200px;
         text-align: left;
