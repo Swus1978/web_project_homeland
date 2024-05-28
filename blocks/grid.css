@@ -7,7 +7,7 @@
     padding: 5px;
     max-width: 995px;
     margin: 0 auto;
-    top: 50px;
+    top: 25px;
 }
 
 .grid-item {
@@ -41,11 +41,10 @@
     height: 460px;
     width: 460px;
     margin-bottom: 20px;
-    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .grid-item-button {
-    background: linear-gradient(90deg, #0278FE 0%, #003a7b40 99.98%);
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -66,7 +65,7 @@
 
 .grid-artist {
     position: relative;
-    left: 440px;
+    left: 400px;
     padding: 20px;
     margin: 20px;
     top: 20px;
@@ -78,7 +77,7 @@
 .grid-name {
     position: relative;
     top: 10px;
-    left: 440px;
+    left: 400px;
     padding: 20px;
     margin: 20px;
 }
