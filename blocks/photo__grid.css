@@ -7,7 +7,6 @@
     grid-auto-flow: dense;
     grid-gap: 20px;
     padding: 20px;
-    top: 50px;
 }
 
 .photo__grid img {
