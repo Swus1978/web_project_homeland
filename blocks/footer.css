@@ -1,6 +1,6 @@
 .footer {
     position: relative;
-    top: 500px;
+    top: 300px;
     padding: 50px;
     left: 0;
     right: 0;
@@ -29,7 +29,6 @@
         margin-top: 200px;
         text-align: left;
         width: auto;
-        /* Ensure it adapts to screen width */
     }
 }
 
@@ -37,10 +36,8 @@
     .footer {
         margin-top: 200px;
         margin-left: 20px;
-        /* Add some margin for smaller screens */
         text-align: left;
         width: auto;
-        /* Ensure it adapts to screen width */
     }
 }
 
