@@ -43,20 +43,6 @@
     margin-bottom: 20px;
 }
 
-.grid-item-button {
-    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    position: relative;
-    bottom: 450px;
-    left: 15px;
-    padding: 20px;
-    margin-top: 50px;
-}
 
 .grid-item-button {
     background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
