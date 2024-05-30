@@ -2,15 +2,15 @@
     display: block;
     max-width: 480px;
     width: 100%;
-    margin: 30px;
+    margin-left: 30px;
     position: relative;
     left: 410px;
-    bottom: 500px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
+    bottom: 115px;
 
 
 }
@@ -21,19 +21,22 @@
 
 @media screen and (max-width: 1280px) {
     .description {
-        left: 440px;
-        bottom: 480px;
+        left: 410px;
+        bottom: 115px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .description {
-        position: static;
-        margin-top: 20px;
-        max-width: 50%;
+        position: relative;
+        max-width: 28%;
         left: auto;
         right: auto;
         transform: none;
+        top: 120px;
+        font-size: 16px;
+        line-height: 163%;
+
     }
 }
 
@@ -46,9 +49,9 @@
 
 @media screen and (max-width: 426px) {
     .description {
-        position: static;
+        position: relative;
         margin-top: 20px;
-        max-width: 50%;
+        max-width: 30%;
         left: auto;
         right: auto;
         transform: none;
@@ -57,11 +60,17 @@
 
 @media (max-width: 320px) {
     .description {
-        position: static;
-        margin-top: 20px;
-        max-width: 30%;
-        left: 100%;
-        right: 480px;
+        display: block;
+        width: calc(30% - 40px);
+        /* Adjust width */
+        margin: 0 auto 20px auto;
+        text-align: left;
+        position: absolute;
+        /* Adjust position */
+    }
 
+    .grid-item {
+        margin-bottom: 20px;
+        /* Adjust margin bottom */
     }
 }
