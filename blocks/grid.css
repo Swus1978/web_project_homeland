@@ -137,8 +137,6 @@
     }
 
     .description {
-        margin: 5px 0;
-        text-align: left;
         margin-bottom: 320px;
     }
 
@@ -190,14 +188,12 @@
         padding: 0;
         margin: 5px 0;
         width: calc(100% - 20px);
-        /* Adjust width */
         text-align: left;
     }
 
     .grid-item-img {
         height: auto;
         width: calc(35% - 20px);
-        /* Adjust width */
         margin: 0 auto 20px auto;
         text-align: left;
     }

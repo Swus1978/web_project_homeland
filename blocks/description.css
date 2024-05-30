@@ -28,15 +28,18 @@
 
 @media screen and (max-width: 600px) {
     .description {
-        position: relative;
-        max-width: 28%;
+        display: block;
+        width: calc(30% - 70px);
+        margin: 0 auto 50px auto;
+        text-align: left;
+        position: absolute;
         left: auto;
         right: auto;
         transform: none;
         top: 120px;
         font-size: 16px;
         line-height: 163%;
-
+        margin-bottom: 320px;
     }
 }
 
@@ -59,15 +62,6 @@
 }
 
 @media (max-width: 320px) {
-    .description {
-        display: block;
-        width: calc(30% - 40px);
-        /* Adjust width */
-        margin: 0 auto 20px auto;
-        text-align: left;
-        position: absolute;
-        /* Adjust position */
-    }
 
     .grid-item {
         margin-bottom: 20px;
