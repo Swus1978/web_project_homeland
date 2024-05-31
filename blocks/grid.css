@@ -63,13 +63,6 @@
     margin-bottom: 920px;
 }
 
-.description {
-    position: relative;
-    grid-area: desc;
-    margin: 0 50px;
-    bottom: 1380px;
-}
-
 .grid-item-button {
     position: absolute;
     bottom: 1350px;
@@ -95,7 +88,6 @@
 @media screen and (max-width: 600px) {
     .grid-container {
         grid-template-columns: 1fr;
-        /* grid-gap: 5px; */
         max-width: 100%;
     }
 
@@ -134,10 +126,6 @@
         width: 30%;
         margin: 0 auto 20px auto;
         text-align: left;
-    }
-
-    .description {
-        margin-bottom: 320px;
     }
 
     .grid-item-button {
@@ -187,7 +175,7 @@
         position: static;
         padding: 0;
         margin: 5px 0;
-        width: calc(100% - 20px);
+        width: calc(28% - 20px);
         text-align: left;
     }
 
